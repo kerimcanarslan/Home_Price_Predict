@@ -47,6 +47,7 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 # Adım 1: Train ve Test veri setlerini okutup birleştiriniz. Birleştirdiğiniz veri üzerinden ilerleyiniz.
 ################################################################
 
+
 # train ve test setlerinin bir araya getirilmesi.
 train = pd.read_csv("vbo_format/datasets/home_price/train.csv")
 test = pd.read_csv("vbo_format/datasets/home_price/test.csv")
